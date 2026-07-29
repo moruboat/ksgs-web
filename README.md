@@ -23,7 +23,7 @@
 
 ## 나중에 채워야 할 항목
 
-1. **배경 이미지** — `assets/images/` 폴더에 아래 파일명으로 넣으면 자동 반영됩니다.
+1. **배경 이미지** — 다른 html 파일들과 같은 위치(폴더 최상위)에 아래 파일명 그대로 넣으면 자동 반영됩니다. 폴더 안에 넣지 말고 바로 최상위에 넣어주세요(GitHub 웹 업로드 시 하위 폴더 구조가 깨지는 문제를 피하기 위함).
    - hero-bg.jpg, about-bg.jpg, business-bg.jpg, references-bg.jpg, contact-bg.jpg
 2. **연락처 정보** — "추후 입력" 표시된 부분(주소/전화/이메일)을 실제 정보로 교체
 3. **문의 폼 연동** — js/contact.js의 `FORM_ENDPOINT`를 Formspree 발급 URL로 교체

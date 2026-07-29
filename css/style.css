@@ -186,7 +186,7 @@ ul { list-style: none; }
   min-height: 560px;
   display: flex;
   align-items: center;
-  background-image: url("../assets/images/hero-bg.jpg");
+  background-image: url("../hero-bg.jpg");
 }
 .hero-inner {
   max-width: var(--max-width);
@@ -230,13 +230,13 @@ ul { list-style: none; }
 .page-banner .breadcrumb a:hover { color: var(--gold); }
 
 /* 페이지별 배경 이미지 지정 (파일을 assets/images 에 넣으면 자동 반영) */
-.banner-about      { background-image: url("../assets/images/about-bg.jpg"); }
-.banner-business    { background-image: url("../assets/images/business-bg.jpg"); }
-.banner-products    { background-image: url("../assets/images/products-bg.jpg"); }
-.banner-references  { background-image: url("../assets/images/references-bg.jpg"); }
-.banner-certifications { background-image: url("../assets/images/certifications-bg.jpg"); }
-.banner-partners    { background-image: url("../assets/images/partners-bg.jpg"); }
-.banner-contact     { background-image: url("../assets/images/contact-bg.jpg"); }
+.banner-about      { background-image: url("../about-bg.jpg"); }
+.banner-business    { background-image: url("../business-bg.jpg"); }
+.banner-products    { background-image: url("../products-bg.jpg"); }
+.banner-references  { background-image: url("../references-bg.jpg"); }
+.banner-certifications { background-image: url("../certifications-bg.jpg"); }
+.banner-partners    { background-image: url("../partners-bg.jpg"); }
+.banner-contact     { background-image: url("../contact-bg.jpg"); }
 
 /* ---------- 섹션 공통 ---------- */
 section { padding: 88px 0; }
