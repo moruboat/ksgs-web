@@ -167,14 +167,13 @@ ul { list-style: none; }
   background-color: var(--navy);
   background-size: cover;
   background-position: center;
-  background-blend-mode: multiply;
 }
 .hero::before,
 .page-banner::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(7,20,41,0.92) 0%, rgba(11,30,61,0.75) 100%);
+  background: linear-gradient(135deg, rgba(7,20,41,0.55) 0%, rgba(11,30,61,0.35) 100%);
 }
 .hero-inner,
 .banner-inner {
