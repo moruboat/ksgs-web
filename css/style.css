@@ -255,6 +255,22 @@ section { padding: 88px 0; }
 .section-head p { color: var(--gray-700); font-size: 16px; }
 .section-navy .section-head p { color: var(--gray-300); }
 
+/* ---------- 카드 내 상단 이미지 ----------
+   가로가 긴 사진(4:3 또는 16:9), 가로 800px 이상 권장.
+   박스 크기에 맞게 자동으로 채워서 잘라줍니다. 파일이 없으면 옅은 회색으로 표시됩니다.
+   ------------------------------------------------------------------- */
+.card-img {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--gray-100);
+  margin: -32px -32px 20px -32px;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+.card-img-hull      { background-image: url("../hull-bg.jpg"); }
+.card-img-outfit    { background-image: url("../outfit-bg.jpg"); }
+.card-img-interior  { background-image: url("../interior-bg.jpg"); }
+
 /* ---------- 그리드 / 카드 ---------- */
 .grid { display: grid; gap: 28px; }
 .grid-2 { grid-template-columns: repeat(2, 1fr); }
@@ -266,6 +282,7 @@ section { padding: 88px 0; }
   border: 1px solid var(--gray-300);
   border-radius: var(--radius);
   padding: 32px;
+  overflow: hidden;
   transition: border-color var(--transition), transform var(--transition);
 }
 .card:hover { border-color: var(--gold); transform: translateY(-2px); }
