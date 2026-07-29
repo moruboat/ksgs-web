@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>문의 | KSGS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav container">
+    <a href="index.html" class="nav-logo">KS<span>GS</span></a>
+    <ul class="nav-menu">
+      <li><a href="index.html">홈</a></li>
+      <li><a href="about.html">회사소개</a></li>
+      <li><a href="business.html">주요사업</a></li>
+      <li><a href="references.html">시공실적</a></li>
+      <li><a href="contact.html">문의</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="메뉴 열기"><span></span><span></span><span></span></button>
+  </nav>
+</header>
+
+<section class="page-banner banner-contact">
+  <div class="banner-inner">
+    <p class="breadcrumb"><a href="index.html">홈</a> / 문의</p>
+    <h1>문의</h1>
+  </div>
+</section>
+
+<section>
+  <div class="container grid grid-2">
+    <div>
+      <p class="section-eyebrow">CONTACT INFO</p>
+      <h2 style="font-size:28px; margin-bottom:20px;">연락처 정보</h2>
+      <table style="margin-bottom:28px;">
+        <tr><td>주소</td><td class="tbd">추후 입력 예정</td></tr>
+        <tr><td>전화</td><td class="tbd">추후 입력 예정</td></tr>
+        <tr><td>이메일</td><td class="tbd">추후 입력 예정</td></tr>
+        <tr><td>운영시간</td><td>평일 09:00 - 18:00</td></tr>
+      </table>
+      <p style="color:var(--gray-700); font-size:14px;">
+        영업 문의와 견적 요청 모두 아래 폼으로 접수됩니다. 담당자가 확인 후 순차적으로 연락드립니다.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3 style="margin-bottom:20px;">문의 남기기</h3>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">이름 *</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="company">소속(회사명)</label>
+          <input type="text" id="company" name="company">
+        </div>
+        <div class="form-group">
+          <label for="email">이메일 *</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">연락처</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+          <label for="subject">문의 유형</label>
+          <select id="subject" name="subject">
+            <option value="영업 문의">영업 문의</option>
+            <option value="견적 요청">견적 요청</option>
+            <option value="정비 의뢰">정비 의뢰</option>
+            <option value="기타">기타</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">문의 내용 *</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%;">문의 보내기</button>
+        <p id="form-status" class="form-status"></p>
+        <p class="form-note">* 표시 항목은 필수 입력 사항입니다.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">KS<span>GS</span></div>
+        <p style="font-size:14px; color:var(--gray-500);">주식회사 케이에스금상<br>함정 MRO 전문기업 · 2008년 설립</p>
+      </div>
+      <div class="footer-col">
+        <h4>바로가기</h4>
+        <ul>
+          <li><a href="about.html">회사소개</a></li>
+          <li><a href="business.html">주요사업</a></li>
+          <li><a href="references.html">시공실적</a></li>
+          <li><a href="contact.html">문의</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>연락처</h4>
+        <ul>
+          <li class="tbd">주소 추후 입력</li>
+          <li class="tbd">전화번호 추후 입력</li>
+          <li class="tbd">이메일 추후 입력</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 KSGS Co., Ltd. All rights reserved.</span>
+      <span>부산광역시 기장군</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
